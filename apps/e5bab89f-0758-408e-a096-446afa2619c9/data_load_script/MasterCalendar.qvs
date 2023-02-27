@@ -1,0 +1,32 @@
+///$tab MasterCalendar
+LET vTableName = 'MasterCalendar';
+
+
+LET varMinDate = Num(Date(AddYears(Today()-1, -2)));  
+LET varMaxDate = Num(Date(Today()-1));  
+
+
+[$(vTableName)_TMP]:  
+LOAD  
+	$(varMinDate) + Iterno()-1 						AS Num,  
+	Date($(varMinDate) + IterNo() - 1) 				AS TempDate  
+AUTOGENERATE 1 
+WHILE $(varMinDate) + IterNo() -1 <= $(varMaxDate);  
+
+LET varMinDate =;  
+LET varMaxDate =;
+
+
+[$(vTableName)]:
+LOAD  
+	Date(TempDate) 									AS %Date, 
+	Date(TempDate) 									AS Date,   
+	Year(TempDate) 									AS Annee,  
+	Month(TempDate) 								AS Month,
+	Date(Monthstart(TempDate), 'YYYY-MMM') 			AS YearMonth,    
+	Date(Monthstart(TempDate), 'MMM-YYYY') 			AS MonthYear
+RESIDENT $(vTableName)_TMP 
+ORDER BY TempDate DESC;  
+
+DROP TABLE $(vTableName)_TMP;
+LET vTableName =;

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "23d2cda4-e8db-47c3-b0c1-33f405d58d4b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vDateMax",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Max(Date)",
+  "tags": []
+}

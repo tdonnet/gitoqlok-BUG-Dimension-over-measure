@@ -1,0 +1,18 @@
+{
+  "id": "10a5f00e-5d8c-47de-b6bb-66b22ce652e9",
+  "name": "gitoqlok-BUG-Dimension-over-measure",
+  "description": "",
+  "apps": [
+    {
+      "id": "e5bab89f-0758-408e-a096-446afa2619c9",
+      "name": "BUG - Dimension over measure",
+      "appId": "",
+      "publishTime": "1753-01-01T00:00:00.000Z",
+      "published": false,
+      "stream": null,
+      "migrationHash": "504d4e39a7133ee172fbe29aa58348b1e4054149",
+      "privileges": null
+    }
+  ],
+  "reloadTasks": []
+}

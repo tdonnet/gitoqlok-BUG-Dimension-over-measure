@@ -1,0 +1,192 @@
+[
+  {
+    "qName": "%Date",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Transactions",
+      "MasterCalendar"
+    ]
+  },
+  {
+    "qName": "Alpha",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Characters"
+    ]
+  },
+  {
+    "qName": "Annee",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "MasterCalendar"
+    ]
+  },
+  {
+    "qName": "AsciiAlpha",
+    "qTags": [],
+    "qSrcTables": [
+      "ASCII"
+    ]
+  },
+  {
+    "qName": "AsciiNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ASCII"
+    ]
+  },
+  {
+    "qName": "Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "MasterCalendar"
+    ]
+  },
+  {
+    "qName": "Dim1",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qName": "Dim2",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "Dim3",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "Expression1",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "Expression2",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "Expression3",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "MasterCalendar"
+    ]
+  },
+  {
+    "qName": "MonthYear",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "MasterCalendar"
+    ]
+  },
+  {
+    "qName": "Num",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Characters",
+      "ASCII",
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "TransID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "TransLineID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Transactions"
+    ]
+  },
+  {
+    "qName": "YearMonth",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "MasterCalendar"
+    ]
+  }
+]

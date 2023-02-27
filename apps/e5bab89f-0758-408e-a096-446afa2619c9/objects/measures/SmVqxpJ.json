@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "SmVqxpJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Measure Exp2 Dim1",
+    "qDef": "If(Dim1 = 'A'\r\n\t, Sum({< Dim1={'A'}, Date={\">$(=AddYears(vDateMax, -1))<=$(vDateMax)\"} >} Expression2)\n    \n\t, If(Dim1 = 'B'\n\t\t, Sum({< Dim1={'B'}, Date={\">$(=AddYears(vDateMax, -1))<=$(vDateMax)\"} >} Expression2)\n        \n        , If(Dim1 = 'C'\n\t\t, Sum({< Dim1={'C'}, Date={\">$(=AddYears(vDateMax, -1))<=$(vDateMax)\"} >} Expression2)\n)))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Measure Exp2 Dim1",
+    "description": "",
+    "tags": []
+  }
+}

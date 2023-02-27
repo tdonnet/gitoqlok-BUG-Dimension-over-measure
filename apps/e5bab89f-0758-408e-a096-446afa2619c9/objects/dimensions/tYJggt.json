@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "tYJggt",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "YearMonth"
+    ],
+    "qFieldLabels": [
+      "YearMonth"
+    ],
+    "title": "YearMonth",
+    "coloring": {
+      "changeHash": "0.31633815592152703"
+    }
+  },
+  "qMetaDef": {
+    "title": "YearMonth",
+    "description": "",
+    "tags": []
+  }
+}
